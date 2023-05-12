@@ -1,0 +1,41 @@
+menu {
+    width:100px;
+    float:left;
+    padding:5px;
+}
+
+.not1 {
+    width:300px;
+    float:left;
+    padding:10px;
+    
+}
+
+.not2 {
+    width:100px;
+    float:left;
+    padding:10px;
+    height: 100%;
+}
+
+.extremidade {
+    background-color: rgb(170, 183, 252); 
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+    text-align: center;
+    border: 1px dashed teal;
+    color: rgb(15, 24, 24);
+    clear: both;
+}
+
+.final {
+        background-color: rgb(170, 183, 252);  
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+        text-align: center;
+        border: 1px dashed teal;
+        color: rgb(15, 24, 24);
+        clear: both;
+}
+
+body {
+    background-color: rgb(255, 255, 255); 
+ }
