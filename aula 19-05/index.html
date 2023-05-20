@@ -1,0 +1,62 @@
+<html>
+    <head>
+        <title>Aula JavaScript</title>
+         <meta charset="utf-8">
+            <style>
+                h1 {
+                    background-color: rgb(107, 189, 216);
+                    color:darkblue;
+                    font-family: arial;
+                    text-align: center;
+                    border:1px solid;
+                }
+                body {
+                    background-color: rgb(200, 231, 250);
+                }
+            </style>
+                
+    </head>
+    <body>
+        <div>
+            <h1>JavaScript</h1>
+            <h2>Instruções Iniciais</h2>
+                <ul>
+                    <li>JavaScript é uma linguagem que funciona no lado cliente, ou seja, no navegador</li>
+                </ul>
+        </div>
+            <script>
+                //Comentario simples em js.
+                 /*
+                     Comentario em varias linguas no js.
+                */
+                 /*
+                  Saída na tela ( em janela )
+                  window.alert("mensagem") --> na janela
+                document.write("mensagem") --> html 
+                */
+                document.write("<h1>Hello World</h1>");
+                window.alert("HelloWorld!");
+                //A tag script pode ser inserida em qualquer lugar da pagina, preferencialmente, no head
+                  var nome = prompt("Qual seu nome?");
+                  if ( nome == "" ) {
+                    document.write("Seja Bem-Vindo, Anônimo!");
+                  } else {
+                    document.write("<h3>Seja Bem-Vindo, "+nome+"!</h3>");
+                  }
+                //char nome [20] - scanf("%s", &nome)
+                //equivale ao printf, tambem le do teclado e armazena na variavel nome. Toda variavel eh precedida por var(não importa o tipo)
+                    var instituto = "IFSP";
+                    var numero = 3;
+                    var real = 3.1415;
+                    var n1 = prompt("Digite o valor da compra ");
+                    var n2 = prompt("Digite a o valor em dinheiro");
+                    
+                    var media = parseInt(n2) - parseInt(n1) ;
+                        if(n1>n2){
+                            document.write("O resultado do troco é " +media);
+                        }  else {                   
+                            document.write("O valor em dinheiro é insuficiente");
+                        }
+            </script>
+    </body>
+</html>
